@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Phalcon</title>
+		<?php use Phalcon\Tag; ?>
+		<?php echo Tag::stylesheetLink("public/css/bootstrap.min.css"); ?>
+
+<div class="container">
+
+<?php
+echo '<div class="hero-unit"><h1>Hello!</h1></div>';
+
+echo '<div class="row"><div class="span">'.Tag::linkTo("upis", "Registirajte se ovdje").'</div></div>';
+?>
+
+</div>
+	</body>
+</html>
